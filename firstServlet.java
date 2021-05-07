@@ -12,6 +12,6 @@ public class NamasteServlet extends HttpServlet {
    public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
           response.setContentType("text/html");
           PrintWriter out = response.getWriter();
-          out.println("<h3>" + msg + "</31>");
+          out.println("<h3>" + msg + "</h3>");
    }
 }
