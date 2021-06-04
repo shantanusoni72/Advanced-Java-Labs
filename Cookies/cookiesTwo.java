@@ -17,7 +17,7 @@ public class CookiesTwo extends HttpServlet {
             	out.println("<h1>Cookie Name Value:" + c[i].getName()+c[i].getValue() + "</h1>");
             }
             out.println("<a href='CookieThree'>Click here</form></body></html>");
-            Cookie cookie = new Cookie("CookieTwo","val2");
+            Cookie cookie = new Cookie("CookieTwo","var");
             response.addCookie(cookie);      
     }
 }
